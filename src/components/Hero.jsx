@@ -48,11 +48,11 @@ const HeroWithNavbar = () => {
 
   return (
     <>
-      <section className="w-full h-screen bg-black relative">
+      <section className="relative w-full h-screen bg-black">
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
           <video
-            className="w-full h-95 object-cover"
+            className="object-cover w-full h-95"
             autoPlay
             muted
             playsInline={true}
@@ -62,15 +62,15 @@ const HeroWithNavbar = () => {
           </video>
         </div>
 
-        <header className="w-full flex flex-col justify-between items-center relative z-20">
-          <nav className="flex w-full screen-max-width items-center py-3 sm:px-10 px-5 bg-transparent">
+        <header className="relative z-20 flex flex-col items-center justify-between w-full">
+          <nav className="flex items-center w-full px-5 py-3 bg-transparent screen-max-width sm:px-10">
             <Link to="/" ><img src={appleImg} alt="Apple" width={12} height={12} /></Link>
             <div className="flex justify-center max-sm:hidden">
               {navLists.map((nav) => (
                 <Link to={`/${nav}`} >
                 <div
                   key={nav}
-                  className="px-6 text-sm cursor-pointer text-gray-200 hover:text-white transition-all"
+                  className="px-6 text-sm text-gray-200 transition-all cursor-pointer hover:text-white"
                 >
                   {nav}
                 </div>
@@ -97,19 +97,19 @@ const HeroWithNavbar = () => {
         </header>
 
         {/* Hero Content */}
-        <div className="relative h-full w-full flex-center flex-col z-10">
+        <div className="relative z-10 flex-col w-full h-full flex-center">
           <div className="flex flex-col items-center">
             <p
               id="hero"
-              className=" hero-title text-5xl font-semibold mb-4"
+              className="mb-4 text-5xl font-semibold hero-title"
               style={{ color: "white" }}
             >
-              iPhone 16 Pro
+              CASINO W3W
             </p>
             <img
               id="image"
               src={appleIntelligenceImage}
-              alt="Built for Apple Intelligence"
+              alt="Livestream casino Tokenopoly 🪑 game"
               className="w-full max-w-4xl -mt-48 opacity-100"
             />
           </div>
@@ -118,14 +118,13 @@ const HeroWithNavbar = () => {
             className="flex flex-col items-center opacity-0 translate-y-80"
           >
             <a
-              href="#highlights"
-              className="btn bg-white text-white buy-btn rounded-full text-md font-thin mb-4 "
+              href="https://what3words.com"
+              className="mb-4 font-thin text-white bg-white rounded-full btn buy-btn text-md "
             >
-              Buy
+              Download What3Words App
             </a>
-            <p className="text-gray text-xl">From ₹119900.00*</p>
-            <p className="text-gray text-xl">
-              Apple Intelligence starting in US English later this year
+            <p className="text-xl text-white">Post a reel on TikTok tagging @casinow3w with your W3W What3Words 🔥🪑🎰🃏🎲 address to enter to win.</p>
+            <p className="text-xl text-gray">
             </p>
           </div>
         </div>

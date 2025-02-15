@@ -87,25 +87,25 @@ export const hightlightsSlides = [
 export const models = [
   {
     id: 1,
-    title: "17.43 cm (6.9″) iPhone 16 Pro Max & 15.93 cm (6.3″) iPhone 16 Pro in Natural Titanium",
+    title: "🎰🟦",
     color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
     img: yellowImg,
   },
   {
     id: 2,
-    title: "17.43 cm (6.9″) iPhone 16 Pro Max & 15.93 cm (6.3″) iPhone 16 Pro in Blue Titanium",
+    title: "🎲🟨",
     color: ["#392e5e", "#6395ff", "#21242e"],
     img: yellowImg,  
   },
   {
     id: 3,
-    title: "17.43 cm (6.9″) iPhone 16 Pro Max & 15.93 cm (6.3″) iPhone 16 Pro in Desert Titanium",
+    title: "🃏🟩",
     color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
     img: yellowImg,
   },
   {
     id: 4,
-    title: "17.43 cm (6.9″) iPhone 16 Pro Max & 15.93 cm (6.3″) iPhone 16 Pro in Black Titanium",
+    title: "🎡🟥",
     color: ["#454749", "#3b3b3b", "#181819"],
     img: yellowImg,
   },

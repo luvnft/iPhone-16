@@ -51,20 +51,20 @@ const Features = () => {
   }, [hasPlayed]);
 
   return (
-    <section className="relative bg-transparent min-h-screen overflow-hidden">
-      <div className="relative z-30 text-center pt-20">
+    <section className="relative min-h-screen overflow-hidden bg-transparent">
+      <div className="relative z-30 pt-20 text-center">
         <h1
           id="features_title"
-          className="text-6xl md:text-7xl font-bold text-white mb-0 opacity-0"
+          className="mb-0 text-6xl font-bold text-white opacity-0 md:text-7xl"
         >
-          Strength. Beauty.
+          👻 Phantom Username
         </h1>
-        <h1 className="text-6xl md:text-7xl font-bold glow-effect g_text blend-text mb-24 opacity-0">
-          Titanium.
+        <h1 className="mb-24 text-6xl font-bold opacity-0 md:text-7xl glow-effect g_text blend-text">
+          ///PIN.POST.WIN.
         </h1>
       </div>
 
-      <div className="video-container mt-24">
+      <div className="mt-24 video-container">
         <video
           playsInline
           id="exploreVideo"
@@ -78,39 +78,39 @@ const Features = () => {
         </video>
       </div>
 
-      <div className="relative z-30 bottom-0 left-0 right-0 p-8 mt-12 gradient-bg">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-center items-start gap-6">
-          <div className="flex-1 p-6 rounded-lg w-full md:w-auto">
-            <p className="feature-text g_text text-gray-400 custom-font-size leading-relaxed">
-              New display technology allows us
+      <div className="relative bottom-0 left-0 right-0 z-30 p-8 mt-12 gradient-bg">
+        <div className="flex flex-col items-start justify-center max-w-4xl gap-6 mx-auto md:flex-row">
+          <div className="flex-1 w-full p-6 rounded-lg md:w-auto">
+            <p className="leading-relaxed text-gray-400 feature-text g_text custom-font-size">
+              Casino W3W map game Playas receive
               <br />
-              to route display data under active
+              Solana Comps airdropped to their 👻
               <br />
-              pixels with no distortion, resulting
+              Phantom wallet account daily, weekly
               <br />
-              in thinner borders for larger
+              and monthly for mapping their fav 
               <br />
-              15.93 cm (6.3”) and 17.43 cm
+              casino spots highlight reels and
               <br />
-              (6.9”){" "}
-              <span className="text-white font-medium">
-                Super Retina XDR displays
+              sharing{" "}
+              <span className="font-medium text-white">
+              🔥🪑🎰🃏🎲
               </span>{" "}
               <br />
-              that feel great in the hand.
+              with other Playas.
             </p>
           </div>
 
-          <div className="flex-1 p-6 rounded-lg w-full md:w-auto mb-24">
-            <p className="feature-text g_text text-gray-400 custom-font-size leading-relaxed">
-              iPhone 16 Pro is splash, water and
+          <div className="flex-1 w-full p-6 mb-24 rounded-lg md:w-auto">
+            <p className="leading-relaxed text-gray-400 feature-text g_text custom-font-size">
+              1️⃣ Download the Phantom wallet app
               <br />
-              dust resistant. It also has our
+              2️⃣ Create a 👻 Username 
               <br />
-              latest-generation Ceramic Shield
+              3️⃣ Share your 👻 Username with W3W addy to win
               <br />
               material that’s{" "}
-              <span className="text-white font-medium">
+              <span className="font-medium text-white">
                 two times tougher
                 <br />
                 than any smartphone glass.
@@ -126,9 +126,9 @@ const Features = () => {
           <ImageCarousel />
         </div>
 
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-center items-start gap-6 mt-48">
-          <div className="flex-1 p-6 rounded-lg w-full md:w-auto">
-            <p className="feature-text g_text text-gray-400 custom-font-size leading-relaxed">
+        <div className="flex flex-col items-start justify-center max-w-4xl gap-6 mx-auto mt-48 md:flex-row">
+          <div className="flex-1 w-full p-6 rounded-lg md:w-auto">
+            <p className="leading-relaxed text-gray-400 feature-text g_text custom-font-size">
               New display technology allows us
               <br />
               to route display data under active
@@ -140,7 +140,7 @@ const Features = () => {
               15.93 cm (6.3”) and 17.43 cm
               <br />
               (6.9”){" "}
-              <span className="text-white font-medium">
+              <span className="font-medium text-white">
                 Super Retina XDR displays
               </span>{" "}
               <br />
@@ -148,8 +148,8 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="flex-1 p-6 rounded-lg w-full md:w-auto mb-24">
-            <p className="feature-text g_text text-gray-400 custom-font-size leading-relaxed">
+          <div className="flex-1 w-full p-6 mb-24 rounded-lg md:w-auto">
+            <p className="leading-relaxed text-gray-400 feature-text g_text custom-font-size">
               iPhone 16 Pro is splash, water and
               <br />
               dust resistant. It also has our
@@ -157,7 +157,7 @@ const Features = () => {
               latest-generation Ceramic Shield
               <br />
               material that's{" "}
-              <span className="text-white font-medium">
+              <span className="font-medium text-white">
                 two times tougher
                 <br />
                 than any smartphone glass.

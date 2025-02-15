@@ -31,15 +31,15 @@ const HowItWorks = () => {
     <section className="common-padding">
       <div className="screen-max-width">
         {/* Chip Image */}
-        <div id="chip" className="flex-center w-full">
+        <div id="chip" className="w-full flex-center">
           <img src={chipImg} alt="chip" width={600} height={600} />
         </div>
 
         {/* Title and Description */}
         <div className="flex flex-col items-center">
-          <h2 className="hiw-title">Powerful possibilities.</h2>
-          <p className="text-lg mt-12 text-gray-500">
-            Starting in US English later this year
+          <h2 className="hiw-title">Livestream</h2>
+          <p className="mt-12 text-lg text-gray-500">
+            Watch Playas play live at your fav casino property.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const HowItWorks = () => {
         <div className="mt-10 md:mt-20 mb-14">
           <div className="flex justify-center">
             <video
-              className="pointer-events-none max-w-full h-auto"
+              className="h-auto max-w-full pointer-events-none"
               playsInline
               preload="none"
               muted
@@ -61,18 +61,17 @@ const HowItWorks = () => {
 
         {/* Text Section */}
         <div className="hiw-text-container">
-          <div className="flex flex-1 justify-center flex-col items-center">
-            <p className="hiw-text g_fadeIn text-center">
-              iPhone 16 Pro is built for Apple Intelligence, the personal
-              intelligence
-              <br /> system that helps you 
-              <span className="text-white font-bold">
-                write, express yourself and get things done
-                <br /> effortlessly
+          <div className="flex flex-col items-center justify-center flex-1">
+            <p className="text-center hiw-text g_fadeIn">
+              Watch Casino W3W livestream events mapped to
+              What3Word locations near you. Watch to see
+              <br /> what hot spots
+              <span className="font-bold text-white">
+                slots, poker and crap tables, dice and roulette games
+                <br /> are hitting.
               </span>
-              .With groundbreaking privacy protections, it gives you <br />
-              peace of mind that no one else can access your data — not even
-              Apple.
+              .Share, chat and network with other Playas <br />
+              everyone Playa wins when you meet a new friend.
             </p>
           </div>
         </div>

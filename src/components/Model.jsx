@@ -98,7 +98,7 @@ const Model = () => {
     <section className="common-padding" ref={parentRef}>
       <div className="screen-max-width">
         <h1 id="heading" className="section-heading" style={{ color: "white" }}>
-          Take a closer look.
+          Casino W3W Emoji Map
         </h1>
         <div className="flex flex-col items-center mt-5">
           <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
@@ -139,15 +139,15 @@ const Model = () => {
           </div>
 
           <div
-            className="mx-auto left-1 right-1 z-10 mt-10 overflow-visible w-fit"
+            className="z-10 mx-auto mt-10 overflow-visible left-1 right-1 w-fit"
             ref={divRef}
             style={{ bottom: "20px" }} 
           >
-            <p className="text-sm font-light text-center mb-5 bg-gray-300 w-fit p-2 rounded-full">
+            <p className="p-2 mb-5 text-sm font-light text-center bg-gray-300 rounded-full w-fit">
               {model.title}
             </p>
             <div className="flex-center">
-              <ul className="color-container gap-2">
+              <ul className="gap-2 color-container">
                 {models.map((item, i) => (
                   <div className={`rounded-full cursor-pointer w-8 h-8 flex-center ${ model.title === item.title ? 'border-blue border-1' : 'border-0'}`}>
                     <div className={`rounded-full cursor-pointer w-7 h-7 flex-center ${ model.title === item.title ? 'border-gray-700 border-1' : 'border-0'}`}>
