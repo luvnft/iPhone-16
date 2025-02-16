@@ -15,55 +15,55 @@ const AppleIntelligence = () => {
   const [selected, setSelected] = useState(0);
   const Items = [
     {
-      cardHeading1: "Boost your productivity1",
+      cardHeading1: "Boost your winnings",
       cardHeading2:
-        "Explore new tools that help you write, focus and communicate.",
+        "Win twice—once in the casino and again on Casino W3W!",
       card1: {
         img: card1Img1,
         text: "",
-        StrongText: "Writing Tools",
+        StrongText: "🏆 WINNING",
         text2:
-          " can proofread your text and rewrite different versions until the tone and wording are just right, and summarise selected text with a tap. They’re available nearly everywhere you write, including third-party apps.",
+          "is as easy as 1️⃣-2️⃣-3️⃣, win 2x in one play.",
       },
       card2: {
         img: img2card1,
-        text: "Just hit record in the Notes or Phone app to capture audio recordings and transcripts. Apple Intelligence generates",
-        StrongText: "summaries",
+        text: "1️⃣ Pin a 🏆 WINNING highlight 🎦 reel to a 📍 ///CASINO.W3W.ADDY with your 👻 Phantom username using the hashtag #CasinoW3W on TikTok, LUV NFT FUN, Instagram or Facebook to enter to",
+        StrongText: "🏆 WIN",
         text2:
-          "of your transcripts, so you can get the most important info at a glance.",
+          "",
       },
       card3: {
         img: img3card1,
-        text: "",
-        StrongText: "Priority messages in Mail ",
+        text: "2️⃣ The most viral 🏆 WINNING highlight 🎦 reels that check the box of 📍👻, have the highest probability of winning.",
+        StrongText: "All Solana Casino W3W Comp winnings are airdropped",
         text2:
-          "elevate time-sensitive messages to the top of your inbox — like an invitation that has a deadline today or a check-in reminder for your flight this afternoon.",
+          "securely to your 👻 Phantom wallet making it easy to show and redeem in our partner Casinos.",
       },
     },
     {
       cardHeading1: "Express yourself visually",
       cardHeading2:
-        "Create fun, original images that are truly personal to you.",
+        "Casinos using live-streaming increase their user 🎰🃏🎲 engagement up to 300%",
       card1: {
         img: card2Img1,
-        text: "Make a",
-        StrongText: "Genmoji",
+        text: "Go",
+        StrongText: "Live",
         text2:
-          " right in the keyboard to match any conversation. Want to create a disco ball pigeon? You got it. Just provide a description.",
+          "to increase your odds of winning on Casino W3W and to receive Comp airdrops from other Playas living through you.",
       },
       card2: {
         img: img2card2,
-        text: "The ",
-        StrongText: "Image Playground app",
+        text: "Casino",
+        StrongText: "Live video-streamed",
         text2:
-          "lets you create unique images in seconds based on a description, a concept or even a person from your Photos library. Experiment with image styles like animation, illustration and sketch.",
+          "events featuring Playas, hosts, celebrities and random people walking in the background.",
       },
       card3: {
         img: img3card2,
-        text: "With",
-        StrongText: "Clean Up, ",
+        text: "Chat",
+        StrongText: "with other Playas",
         text2:
-          " you can remove distracting background objects from your photos with just a tap — so you can perfect a shot while staying true to the original image.",
+          "in a all voice room to hear what's happening play by play from your fav casino W3W locations.",
       },
     },
     {
@@ -72,17 +72,17 @@ const AppleIntelligence = () => {
         "With all-new superpowers, Siri will be able to assist you like never before.",
       card1: {
         img: card3Img1,
-        text: "Awareness of your personal context enables Siri to",
-        StrongText: "help you in ways that are unique to you.",
+        text: "LUV NFT FUN",
+        StrongText: "is our social media partner",
         text2:
-          " Need your passport number while booking a flight? Siri can help find what you’re looking for, without compromising your privacy.",
+          "that allows our Playas to contribute Casino W3W content in the official group, network and meet up IRL.",
       },
       card2: {
         img: img2card3,
-        text: "",
-        StrongText: "Richer language understanding",
+        text: "Share with other",
+        StrongText: "Playas",
         text2:
-          "and an enhanced voice make communicating with Siri even more natural. For example, if you stumble over your words, Siri still knows what you’re getting at.",
+          "the Casino hot spots in real time and earn Casino W3W Comp tips for helping others. All Playas win united as a team.",
       },
       card3: {
         img: img3card3,
@@ -102,7 +102,7 @@ const AppleIntelligence = () => {
             }   `}
             onClick={(e) => setSelected(0)}
           >
-            <div>Boost your productivity</div>
+            <div>Boost your winnings</div>
           </li>
           <li
             className={`  border-b-1 border-[#424245] w-full  hover:text-white flex justify-center ${
@@ -110,7 +110,7 @@ const AppleIntelligence = () => {
             }  `}
             onClick={(e) => setSelected(1)}
           >
-            <div>Express yourself visually</div>
+            <div>Casino Livestream</div>
           </li>
           <li
             className={` border-b-1 border-[#424245] w-full  hover:text-white flex justify-center ${
@@ -118,7 +118,7 @@ const AppleIntelligence = () => {
             }  `}
             onClick={(e) => setSelected(2)}
           >
-            <div>A new era for Siri</div>
+            <div>Casino Social Media </div>
           </li>
         </ul>
       </div>
@@ -131,7 +131,7 @@ const AppleIntelligence = () => {
               i !== selected && "min-[1075px]:hidden"
             }`}
           >
-            <div className="flex items-center flex-col font-semibold">
+            <div className="flex flex-col items-center font-semibold">
               <div className="min-[1075px]:hidden text-md text-white pt-5 ">
                 {item.cardHeading1}
               </div>
@@ -139,34 +139,34 @@ const AppleIntelligence = () => {
                 {item.cardHeading2}
               </p>
             </div>
-            <div className="flex flex-col min-[1075px]:flex-row gap-7 text-sm text-gray-200 ">
+            <div className="flex flex-col min-[1075px]:flex-row gap-7 text-sm text-gold-700 ">
               <div className="flex flex-col justify-around items-center min-[1075px]:w-1/2 md:px-14 pt-7 py-5 bg-black rounded-3xl">
-                <div className="w-80 animate-fade flex justify-center">
+                <div className="flex justify-center w-80 animate-fade">
                   <img src={item.card1.img} alt="" />
                 </div>
                 <div className="text-center w-[73%]  animate-fade ">
                   {item.card1.text}{" "}
-                  <span className="text-white font-bold">
+                  <span className="font-bold text-white">
                     {item.card1.StrongText}
                   </span>{" "}
                   {item.card1.text2}
                 </div>
               </div>
               <div className="min-[1075px]:w-1/2 flex flex-col gap-7">
-                <div className="py-10 leading-5 bg-black flex flex-col gap-14  rounded-xl text-gray-200">
+                <div className="flex flex-col py-10 leading-5 bg-black text-gold-700 gap-14 rounded-xl">
                   <div className="text-center px-28 min-[1075px]:px-24 animate-fade">
                     {item.card2.text}{" "}
-                    <strong className="text-white font-bold">
+                    <strong className="font-bold text-white">
                       {item.card2.StrongText}
                     </strong>{" "}
                     {item.card2.text2}
                   </div>
 
-                  <div className="overflow-hidden w-full flex justify-center animate-fade ">
+                  <div className="flex justify-center w-full overflow-hidden animate-fade ">
                     <img src={item.card2.img} alt="" className="rounded-xl " />
                   </div>
                 </div>
-                <div className="bg-black w-full h-full  rounded-xl overflow-hidden">
+                <div className="w-full h-full overflow-hidden bg-black rounded-xl">
                   <p className="text-center px-[22%] py-14 animate-fade">
                     {item.card3.text}{" "}
                     <strong className="text-white">

@@ -121,53 +121,6 @@ const Features = () => {
             </p>
           </div>
         </div>
-
-        <div className="mt-12">
-          <ImageCarousel />
-        </div>
-
-        <div className="flex flex-col items-start justify-center max-w-4xl gap-6 mx-auto mt-48 md:flex-row">
-          <div className="flex-1 w-full p-6 rounded-lg md:w-auto">
-            <p className="leading-relaxed text-gray-400 feature-text g_text custom-font-size">
-              New display technology allows us
-              <br />
-              to route display data under active
-              <br />
-              pixels with no distortion, resulting
-              <br />
-              in thinner borders for larger
-              <br />
-              15.93 cm (6.3”) and 17.43 cm
-              <br />
-              (6.9”){" "}
-              <span className="font-medium text-white">
-                Super Retina XDR displays
-              </span>{" "}
-              <br />
-              that feel great in the hand.
-            </p>
-          </div>
-
-          <div className="flex-1 w-full p-6 mb-24 rounded-lg md:w-auto">
-            <p className="leading-relaxed text-gray-400 feature-text g_text custom-font-size">
-              iPhone 16 Pro is splash, water and
-              <br />
-              dust resistant. It also has our
-              <br />
-              latest-generation Ceramic Shield
-              <br />
-              material that's{" "}
-              <span className="font-medium text-white">
-                two times tougher
-                <br />
-                than any smartphone glass.
-              </span>{" "}
-              Talk
-              <br />
-              about durable.
-            </p>
-          </div>
-        </div>
       </div>
 
       <style jsx='true'>{`

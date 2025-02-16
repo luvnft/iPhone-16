@@ -62,25 +62,25 @@ const FloatingNavbar = () => {
       className="fixed top-0 left-0 w-full bg-zinc z-50 py-3 px-5 md:px-10 flex justify-between items-center border-b border-[#4A4A4A]"
       style={{ transform: "translateY(-100%)", opacity: 0 }}
     >
-      <div className="text-white text-xl font-bold md:ml-56">iPhone 16 Pro</div>
+      <div className="text-xl font-bold text-white md:ml-56">📍🎰 CASINO W3W</div>
 
       {/* Desktop Navigation links and Buy Button */}
       <nav
-        className="hidden md:flex gap-x-8 text-sm"
+        className="hidden text-sm md:flex gap-x-8"
         style={{ fontSize: "0.75rem", marginRight: "230px" }}
       >
-        <Link to="/" className="relative text-white">
-          Overview
+        <Link to="https://map.casinow3w.com" className="relative text-white">
+          Map
           <span className="absolute left-0 bottom-[-15px] w-full h-[0.1px] bg-white"></span>
         </Link>
-        <Link to="/Switch" className="text-white">
-          Switch from Android to iPhone
+        <Link to="https://fun.luvnft.com" className="text-white">
+          Social
         </Link>
-        <Link to="/Specs" className="text-white">
-          Tech Specs
+        <Link to="https://live.casinow3w.com" className="text-white">
+          Livestream
         </Link>
         <button
-          className="bg-blue buy-btn text-white rounded-full text-xs"
+          className="text-xs text-white rounded-full bg-blue buy-btn"
           style={{ padding: "4px 12px", fontSize: "0.75rem" }}
         >
           <Link to="/Iphone16Pro">Buy</Link>
@@ -91,14 +91,14 @@ const FloatingNavbar = () => {
       <div className="flex items-center gap-3 ml-auto md:hidden">
         <button
           onClick={toggleMenu}
-          className="text-white text-2xl"
+          className="text-2xl text-white"
           style={{ fontSize: "1.25rem", fontWeight: 100 }}
         >
           {isMenuOpen ? <FaChevronUp /> : <FaChevronDown />}
         </button>
 
         <button
-          className="bg-blue text-white rounded-full text-xs px-4 py-2"
+          className="px-4 py-2 text-xs text-white rounded-full bg-blue"
           style={{ fontSize: "0.75rem" }}
         >
           <Link to="/Iphone16Pro">Buy</Link>
@@ -115,16 +115,16 @@ const FloatingNavbar = () => {
           fontFamily: `"SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif`,
         }}
       >
-        <Link to="/" className="text-gray-400 hover:text-white transition">
+        <Link to="/" className="text-gray-400 transition hover:text-white">
           | Overview
         </Link>
         <Link
           to="/Switch"
-          className="text-gray-400 hover:text-white transition"
+          className="text-gray-400 transition hover:text-white"
         >
           | Switch from Android to iPhone
         </Link>
-        <Link to="/Specs" className="text-gray-400 hover:text-white transition">
+        <Link to="/Specs" className="text-gray-400 transition hover:text-white">
           | Tech Specs
         </Link>
       </nav>
