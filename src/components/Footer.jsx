@@ -8,7 +8,7 @@ const FooterSection = ({ title, children }) => {
   return (
     <div className="flex flex-col ">
       <button
-        className="flex justify-between font-semibold text-white mb-1 border-b-1 border-gray-100 py-2 md:py-0 md:border-none"
+        className="flex justify-between py-2 mb-1 font-semibold text-white border-gray-100 border-b-1 md:py-0 md:border-none"
         onClick={(e) => setExpand(!expand)}
       >
         <h3>{title}</h3>
@@ -48,8 +48,8 @@ export default function Footer() {
   return (
     <div className="bg-[#1d1d1f] px-3 lg:px-52">
       {/* Breadcrumb Section */}
-      {/* <nav className="flex items-center gap-2 pl-40 py-1 mx-28"> */}
-      <nav className="flex items-center gap-2  py-1 ">
+      {/* <nav className="flex items-center gap-2 py-1 pl-40 mx-28"> */}
+      <nav className="flex items-center gap-2 py-1 ">
         <a href="#" className="#FFFFFFCC text-[12px] hover:underline">
           <svg className="w-4 h-4" viewBox="0 0 17 17" fill="currentColor">
             <path
@@ -61,11 +61,11 @@ export default function Footer() {
         </a>
         <span className="text-gray-12px">›</span>
         <a href="#" className="#FFFFFFCC text-[12px] hover:underline">
-          iPhone
+          Casino Map
         </a>
         <span className="#FFFFFFCC">›</span>
         <a href="#" className="#FFFFFFCC text-[12px] hover:underline">
-          iPhone 16 Pro
+          CASINO W3W
         </a>
       </nav>
 
@@ -170,18 +170,18 @@ export default function Footer() {
         {/* Store Locator */}
         <div className="text-[12px] text-gray-400 mb-4">
           More ways to shop:{" "}
-          <a href="#" className="text-blue underline">
+          <a href="#" className="underline text-blue">
             Find an Apple Store
           </a>{" "}
           or{" "}
-          <a href="#" className="text-blue underline">
+          <a href="#" className="underline text-blue">
             other retailer
           </a>{" "}
           near you. Or call 0008000 040 1966.
         </div>
 
         {/* Copyright Section */}
-        <div className="flex flex-col-reverse md:flex-row  justify-between gap-5 md:gap-0 border-t md:border-gray-700 pt-2 text-gray-400">
+        <div className="flex flex-col-reverse justify-between gap-5 pt-2 text-gray-400 border-t md:flex-row md:gap-0 md:border-gray-700">
           <div className="flex flex-col lg:flex-row justify-between  lg:items-center text-[12px] ">
             <div className="mb-1 md:mb-0">
               <span>Copyright © 2024 Apple Inc. All rights reserved.</span>

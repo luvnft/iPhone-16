@@ -47,9 +47,9 @@ export const hightlightsSlides = [
   {
     id: 3,
     textLists: [
-      "4K 120 fps Dolby Vision.",
-      "4 studio-quality mics.",
-      "A Pro studio in your pocket.",
+      "Create Reel Content mapped to a W3W",
+      "Tag @CasinoW3W #CasinoW3W with your Phantom username ",
+      "Win Solana CasinoW3W Air Comps",
     ],
     video: highlightThirdVideo,
     videoDuration: 7, // Duration in seconds

@@ -41,7 +41,7 @@ const Slider = () => {
     <div className="relative">
       <div
         ref={scrollRef}
-        className="overflow-x-auto w-full mx-auto flex scrollbar-hide"
+        className="flex w-full mx-auto overflow-x-auto scrollbar-hide"
         style={{
           overflowY: "hidden",
           scrollbarWidth: "none",
@@ -53,7 +53,7 @@ const Slider = () => {
           paddingLeft: "180px",
         }}
       >
-        <div className="flex flex-nowrap w-full">
+        <div className="flex w-full flex-nowrap">
           {[ic1Img, ic2Img, ic3Img, ic4Img].map((image, index) => (
             <div
               key={index}
@@ -63,7 +63,7 @@ const Slider = () => {
               }}
             >
               <div
-                className="rounded-2xl overflow-hidden"
+                className="overflow-hidden rounded-2xl"
                 style={{
                   height: "532px",
                   width: "532px",
@@ -72,22 +72,21 @@ const Slider = () => {
                 <img
                   src={image}
                   alt={`Slide ${index + 1}`}
-                  className="w-full h-full object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <p className="text-left text-[#fafafa] ml-12 mt-4 text-lg font-normal leading-tight max-w-[532px]">
                 {index === 0 && (
                   <>
-                    iPhone 16 Pro Max has our largest iPhone <br /> display ever
+                    You never lose with viral Casino highlight reels mapped to a W3W addy. 
                   </>
                 )}
-                {index === 1 && "The thinnest borders on any Apple product"}
+                {index === 1 && "Increase your positive Playa juju by recording a Reel mapped to 3 word address."}
                 {index === 2 &&
-                  "Premium Grade 5 titanium is exceptionally durable"}
+                  "Enter to win Casino W3W Aircomps with a Phantom wallet username and a Casino W3W reel."}
                 {index === 3 && (
                   <>
-                    Four striking colours, from Black Titanium to new <br />{" "}
-                    Desert Titanium
+                    Watch the Casino W3W livestream to see winners in reel time.
                   </>
                 )}
               </p>
